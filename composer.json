@@ -1,0 +1,5 @@
+{
+    "require": {
+        "xrogers/gg-bot-api": "dev-master"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "01ac8cbbd425052eeec24ab6d9ff6c5d",
+    "packages": [
+        {
+            "name": "xrogers/gg-bot-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xrogers/gg-bot-api.git",
+                "reference": "70341f1eeb6ed10fddae9e639b99fc5a3eb09bc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xrogers/gg-bot-api/zipball/70341f1eeb6ed10fddae9e639b99fc5a3eb09bc3",
+                "reference": "70341f1eeb6ed10fddae9e639b99fc5a3eb09bc3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GGBotApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lech Groblewicz",
+                    "email": "xrogers@gmail.com"
+                }
+            ],
+            "description": "Bot API for GaduGadu (https://boty.gg.pl)",
+            "homepage": "https://github.com/xrogers/gg-bot-api",
+            "keywords": [
+                "gadugadu",
+                "gg"
+            ],
+            "support": {
+                "issues": "https://github.com/xrogers/gg-bot-api/issues",
+                "source": "https://github.com/xrogers/gg-bot-api/tree/master"
+            },
+            "time": "2016-01-09T22:13:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xrogers/gg-bot-api": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
